@@ -8,7 +8,7 @@ export const BlogCard: React.FC<IBlogCard> = ({
   link,
 }) => {
   return (
-    <article className="h-[504px] w-[340px] rounded-lg overflow-hidden bg-white">
+    <article className="shadow h-[504px] w-[340px] rounded-lg overflow-hidden bg-white">
       <figure>
         <img className="h-[288px] w-full object-cover" src={img} />
       </figure>
