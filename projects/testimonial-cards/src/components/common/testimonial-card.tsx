@@ -2,7 +2,7 @@ import { ITestCard } from "../../types/types";
 
 export const TestimonialCard = ({ img, name, username, text }: ITestCard) => {
   return (
-    <div className="w-[340px] h-[233px] text-left flex flex-col gap-4 p-6 bg-white rounded-lg shadow-md mx-auto ">
+    <div className="w-[340px] h-[233px] text-left flex flex-col gap-4 p-6 bg-white rounded-lg shadow-sm mx-auto ">
       <div className="flex gap-4">
         <div>
           <img src={img} className="w-12 h-12" />
