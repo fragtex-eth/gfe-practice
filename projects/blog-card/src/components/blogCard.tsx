@@ -16,7 +16,7 @@ export const BlogCard: React.FC<IBlogCard> = ({
         <div className="flex gap-4 mb-2">
           {tags.map((tag) => (
             <span
-              className="h-[24px] w-[67px] flex justify-center items-center rounded-full border border-green-200 text-sm font-normal text-green-700"
+              className="h-[24px] w-[67px] flex justify-center items-center rounded-full border border-green-200 bg-green-50 text-sm font-normal text-green-700"
               key={tag}
             >
               {tag}
