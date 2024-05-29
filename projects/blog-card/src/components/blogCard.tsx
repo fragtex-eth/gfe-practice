@@ -28,7 +28,7 @@ export const BlogCard: React.FC<IBlogCard> = ({
           {description}
         </p>
         <a
-          className="my-[2px] text-indigo-700 text-base font-medium flex  flex gap-3 items-center"
+          className="mx-[2px] text-indigo-700 text-base font-medium flex  flex gap-3 items-center"
           href={link}
         >
           Read more
