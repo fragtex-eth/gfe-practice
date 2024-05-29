@@ -1,4 +1,3 @@
-import "./App.css";
 import { ITestCard } from "./types/types";
 import { TestimonialCard } from "./components/common/testimonial-card";
 import SdoleImg from "./assets/img/profile-thumbnail.png";
