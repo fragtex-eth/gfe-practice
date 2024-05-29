@@ -17,7 +17,7 @@ export const TestimonialCard: React.FC<ITestCard> = ({
           </span>
         </figcaption>
       </figure>
-      <p
+      <blockquote
         className="text-base font-normal text-neutral-600"
         dangerouslySetInnerHTML={{ __html: text }}
       />
