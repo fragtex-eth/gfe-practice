@@ -7,7 +7,7 @@ export const TestimonialCard = ({ img, name, username, text }: ITestCard) => {
         <div>
           <img src={img} className="w-12 h-12" />
         </div>
-        <div className="flex flex-col">
+        <div className="flex flex-col gap-[1px]">
           <span className="text-lg font-semibold text-neutral-900">{name}</span>
           <span className="text-sm font-normal text-neutral-600">
             {username}
