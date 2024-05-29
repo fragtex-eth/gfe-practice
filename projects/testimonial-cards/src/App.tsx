@@ -8,7 +8,8 @@ function App() {
     img: SdoleImg,
     name: "Sarah Dole",
     username: "@sarahdole",
-    text: `I've been searching for high-quality abstract images for my design <br/> projects, and I'm thrilled to have found this platform. The variety and depth of creativity are astounding!`,
+    text:
+      `I've been searching for high-quality abstract images for my design <br/> projects, and I'm thrilled to have found this platform. The variety and depth of creativity are astounding!`,
   };
   return (
     <div className="h-screen">
