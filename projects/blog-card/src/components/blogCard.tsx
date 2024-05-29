@@ -28,11 +28,11 @@ export const BlogCard: React.FC<IBlogCard> = ({
           {description}
         </p>
         <a
-          className="text-indigo-700 text-base font-medium flex  flex gap-3 items-center"
+          className="my-[2px] text-indigo-700 text-base font-medium flex  flex gap-3 items-center"
           href={link}
         >
           Read more
-          <img className="h-[12.96px] w-[13.33px]" src={Arrow} />
+          <img className="h-[13px] w-[13.33px]" src={Arrow} />
         </a>
       </figcaption>
     </article>
