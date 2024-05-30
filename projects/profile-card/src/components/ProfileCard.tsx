@@ -17,10 +17,10 @@ export const ProfileCard: React.FC<IProfileCard> = ({
       <img
         src={img}
         alt={`${name} profile picture`}
-        className="h-16 w-16 rounded-full mx-auto"
+        className="size-16 rounded-full mx-auto"
       />
       <div>
-        <h3 className="text-xl font-medium   mb-1">{name}</h3>
+        <h3 className="text-xl font-medium mt-[1px] mb-[3px]">{name}</h3>
         <div className="h-5 flex items-center justify-center">
           <span className="text-sm font-normal text-neutral-600">
             {occupation}
