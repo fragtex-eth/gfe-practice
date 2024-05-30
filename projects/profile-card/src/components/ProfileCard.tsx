@@ -21,9 +21,11 @@ export const ProfileCard: React.FC<IProfileCard> = ({
       />
       <div>
         <h3 className="text-xl font-medium mb-1">{name}</h3>
-        <span className="text-sm font-normal text-neutral-600">
-          {occupation}
-        </span>
+        <div className="h-5 flex items-center justify-center">
+          <span className="text-sm font-normal text-neutral-600">
+            {occupation}
+          </span>
+        </div>
       </div>
       <p className="text-neutral-600 text-base font-normal mb-4">
         {description}
@@ -34,7 +36,7 @@ export const ProfileCard: React.FC<IProfileCard> = ({
       >
         Contact me
       </button>
-      <div className="flex w-48 mx-auto justify-between  h-9 items-center">
+      <div className="flex  w-44 mx-auto justify-between h-9 items-center">
         <RiGithubFill size={20} color="#4338CA" aria-label="GitHub" />
         <RiLinkedinBoxFill size={20} color="#4338CA" aria-label="LinkedIn" />
         <RiInstagramFill size={20} color="#4338CA" aria-label="Instagram" />
