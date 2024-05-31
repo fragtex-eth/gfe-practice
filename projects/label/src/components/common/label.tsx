@@ -1,8 +1,14 @@
 import { LabelProps } from "../../types/types";
 import { cva } from "class-variance-authority";
+import { cn } from "../../utils/cn";
 
-export const Label = ({ variant, size, ...props }: LabelProps) => {
-  return <div {...props} className={labelVariants({ variant, size })} />;
+export const Label = ({ className, variant, size, ...props }: LabelProps) => {
+  return (
+    <div
+      {...props}
+      className={cn(labelVariants({ variant, size }), className)}
+    />
+  );
 };
 
 const labelVariants = cva(
@@ -17,9 +23,9 @@ const labelVariants = cva(
         brand: "text-indigo-700 bg-indigo-50 border-indigo-200",
       },
       size: {
-        small: "text-xs w-[43px] h-5",
-        medium: "text-sm w-[52px] h-6",
-        large: "text-sm w-14 h-7",
+        small: "text-xs h-5 px-[6px]",
+        medium: "text-sm h-6 px-2",
+        large: "text-sm h-7 px-[10px]",
       },
     },
     defaultVariants: {
