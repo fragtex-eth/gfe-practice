@@ -1,17 +1,17 @@
-import { LabelProps } from "../../types/types";
+import { BadgeProps } from "../../types/types";
 import { cva } from "class-variance-authority";
 import { cn } from "../../utils/cn";
 
-export const Label = ({ className, variant, size, ...props }: LabelProps) => {
+export const Badge = ({ className, variant, size, ...props }: BadgeProps) => {
   return (
     <div
       {...props}
-      className={cn(labelVariants({ variant, size }), className)}
+      className={cn(badgeVariants({ variant, size }), className)}
     />
   );
 };
 
-const labelVariants = cva(
+const badgeVariants = cva(
   "flex justify-center items-center border rounded-full",
   {
     variants: {

@@ -1,4 +1,4 @@
-import { Label } from "./components/common/label";
+import { Badge } from "./components/common/badge";
 import { TSize, TVariant } from "./types/types";
 
 function App() {
@@ -16,9 +16,9 @@ function App() {
         {VARIANTS.map((variant) => (
           <div className="flex gap-6 items-center" key={variant}>
             {SIZES.map((size) => (
-              <Label variant={variant} size={size} key={`${variant}/ ${size}`}>
+              <Badge variant={variant} size={size} key={`${variant}/ ${size}`}>
                 Label
-              </Label>
+              </Badge>
             ))}
           </div>
         ))}
