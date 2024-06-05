@@ -4,7 +4,7 @@ import PrismImg from "./assets/img/prism.png";
 function App() {
   return (
     <div className="p-4 bg-gradient-to-br from-[#F9FAFB] to-[#D2D6DB]">
-      <main className="py-14 sm:py-[27px] lg:py-0 shadow-sm rounded bg-[#F9FAFB]">
+      <main className="py-14 sm:py-[27px] lg:py-0 shadow rounded bg-[#F9FAFB]">
         <section className="px-3 py-12 sm:py-16 sm:px-4 lg:flex lg:gap-8 lg:px-24 lg:py-0">
           <div className="lg:pt-[206px]">
             <h1 className="text-4xl font-semibold mb-4 sm:text-5xl sm:mb-6 lg:text-6xl">
