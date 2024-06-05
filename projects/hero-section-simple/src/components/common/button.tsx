@@ -10,7 +10,7 @@ export const Button = ({ className, variant, ...props }: ButtonProps) => {
 };
 
 const buttonVariants = cva(
-  "py-[11px] shadow-sm text-base font-medium  rounded-[4px] border sm:py-[15px] text-base sm:text-lg w-[151.5px] sm:w-[213px] lg:w-[175.5px] shadow-sm",
+  "py-[11px] shadow-sm text-base font-medium  rounded-[4px] border sm:py-[15px] text-base sm:text-lg w-[151.5px] sm:w-[213px] lg:w-[175.5px] shadow",
   {
     variants: {
       variant: {
