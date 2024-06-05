@@ -10,7 +10,7 @@ function App() {
             <h1 className="text-4xl font-semibold mb-4 sm:text-5xl sm:mb-6 lg:text-6xl">
               Well crafted abstract images
             </h1>
-            <p className="mb-8 sm:mb-[64px] text-lg font-normal text-neutral-600 sm:text-xl lg:mt-[1px] lg:mb-[63px]">
+            <p className="mb-8 sm:mb-[64px] text-lg font-normal text-neutral-600 sm:text-xl lg:mt-[3px] lg:mb-[63px]">
               High quality abstract images for your projects, wallpaper and
               presentations.
             </p>
@@ -21,7 +21,7 @@ function App() {
           </div>
           <img
             src={PrismImg}
-            className="w-[319px] h-[264px] sm:w-[704px] sm:h-[526px] lg:my-[105px] md:w-[704px] md:h-[526px]"
+            className="w-[319px] h-[264px] sm:w-[704px] sm:h-[526px] md:my-[105px] md:h-[526px]"
           />
         </section>
       </main>
