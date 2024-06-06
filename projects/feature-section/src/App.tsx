@@ -29,9 +29,11 @@ function App() {
                 </div>
               ))}
             </div>
-            <div className="flex gap-4 sm:gap-[32px]">
-              <Button variant="secondary">See pricing</Button>
-              <Button>Learn more</Button>
+            <div className="flex  gap-4 sm:gap-[32px]">
+              <Button className="sm:order-2" variant="secondary">
+                See pricing
+              </Button>
+              <Button className="sm:order-1">Learn more</Button>
             </div>
           </div>
           <img
